@@ -91,6 +91,7 @@ def generate_launch_description():
             executable='planner_server',
             name='planner_server',
             output='screen',
+            # arguments=['--ros-args', '--log-level', 'DEBUG'],
             parameters=[configured_params],
             remappings=remappings),
 
